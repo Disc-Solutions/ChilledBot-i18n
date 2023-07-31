@@ -1,0 +1,66 @@
+{
+	"emoji": "🇬🇧",
+	"language": "English",
+
+	"vote": "Vote for the bot to support us",
+	
+	"commands": {
+		"join": {
+			"error1": "You need to be in a voice channel or specify one!",
+			"error2": "I can't join that channel!",
+			"error3": "I can't speak in that channel!",
+			"connected": "Now connected to {{channel}}"
+		},
+		"leave": {
+			"error": "I'm not connected in any channel!",
+			"disconnected": "I've disconnected from {{channel}}"
+		},
+		"nowplaying": {
+			"np": "Now Playing",
+			"title": "Title",
+			"artists": "Artist(s)",
+			"album": "Album",
+			"progress": "Progress",
+			"footer": "Playlist provided by Lofi Girl (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"like": "Like",
+			"liked": "Liked",
+			"liked_message": "> {{user}} Liked the song **{{song}}**",
+			"likes": "People who liked it"
+		},
+		"favorites": {
+			"no_favorites": "You don't have any songs in your favorites!",
+			"title": "Your favorites songs",
+			"likes": "{{likes}} likes",
+			"unlike": "Remove my like",
+
+			"modal": {
+				"title": "Remove a song from your favorites",
+				"label": "Song's position in the favorites list",
+				"placeholder": "Please insert the song's position in your favorites list (At the right in the list of the favorites)",
+				"no_song": "The song you specified doesn't exist in your favorites list!",
+				"unliked": "The song {{song}} has been removed from your favorites list"
+			}
+		},
+		"settings": {
+			"shard": "Server's Shard",
+			"cluster": "Server's Cluster",
+			"id": "Server's ID",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} Enabled",
+			"disabled": "{{emoji}} Disabled",
+			"change_radio": "Change Radio",
+			"nowplaying_channel": "Now Playing Channel",
+
+			"language": "Here is the list of languages available on the bot. The bot is based on the language defined by the server and on the language of your Discord client.",
+			"languages": "Languages available on the bot",
+
+			"changeradio": {
+				"non_premium": "This button allows you to change among several radios proposed by ChilledBot. This feature is only available for premium bots (ChilledPremium, ChilledPlus and ChilledPro). Please visit <https://chilledbot.xyz/premium> for more information about the premium plans."
+			},
+
+			"nowplayingchannel": {
+				"non_premium": "This button allows you to configure a channel where ChilledBot will send the music currently playing. The message in question is updated automatically. This feature is only available for premium bots (ChilledPremium, ChilledPlus and ChilledPro). Please visit <https://chilledbot.xyz/premium> for more information about the premium plans."
+			}
+		}
+	}
+}
