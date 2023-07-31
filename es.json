@@ -1,6 +1,6 @@
 {
 	"emoji": "🇪🇸",
-	"language": "Spanish",
+	"language": "Español",
 
 	"vote": "Vota por el bot al que apoyar 🇪🇸",
 	
@@ -38,12 +38,12 @@
 				"label": "Posición de la canción en la lista de favoritos",
 				"placeholder": "Introduzca la posición de la canción en su lista de favoritos (A la derecha en la lista de favoritos)",
 				"no_song": "La canción que has especificado no existe en tu lista de favoritos.",
-				"unliked": "La canción  {{song}} ha sido eliminado de su lista de favoritos"
+				"unliked": "La canción {{song}} ha sido eliminado de su lista de favoritos"
 			}
 		},
 		"settings": {
-			"shard": "Fragmento del servidor",
-			"cluster": "Clúster del servidor",
+			"shard": "Shard del servidor",
+			"cluster": "Cluster del servidor",
 			"id": "ID del servidor",
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Activado",
