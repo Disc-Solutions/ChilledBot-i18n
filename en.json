@@ -12,7 +12,7 @@
 			"connected": "Now connected to {{channel}}"
 		},
 		"leave": {
-			"error": "I'm not connected in any channel!",
+			"error": "I'm not connected to any channel!",
 			"disconnected": "I've disconnected from {{channel}}"
 		},
 		"nowplaying": {
