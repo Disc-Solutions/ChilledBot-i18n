@@ -53,6 +53,7 @@
 
 			"language": "Here is the list of languages available on the bot. The bot is based on the language defined by the server and on the language of your Discord client.",
 			"languages": "Languages available on the bot",
+			"translate_the_bot": "Help us translate the bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
 
 			"changeradio": {
 				"non_premium": "This button allows you to change among several radios proposed by ChilledBot. This feature is only available for premium bots (ChilledPremium, ChilledPlus and ChilledPro). Please visit <https://chilledbot.xyz/premium> for more information about the premium plans."
