@@ -43,7 +43,7 @@
 			}
 		},
 		"settings": {
-			"shard": "Fragment du serveur",
+			"shard": "Shard du serveur",
 			"cluster": "Cluster du serveur",
 			"id": "ID du serveur",
 			"24/7": "24/7",
