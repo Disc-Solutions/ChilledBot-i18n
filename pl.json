@@ -1,43 +1,40 @@
 {
 	"emoji": "🇵🇱",
 	"language": "Polski",
-
 	"vote": "Zagłosuj na bota, aby nas wesprzeć",
-	
 	"commands": {
 		"join": {
-			"error1": "Musisz być na kanale głosowym lub podać jeden!",
+			"error1": "Musisz znajdować się w kanale głosowym lub podać jeden!",
 			"error2": "Nie mogę dołączyć do tego kanału!",
 			"error3": "Nie mogę mówić na tym kanale!",
-			"connected": "Teraz połączony z kanałem {{channel}}"
+			"connected": "Teraz połączony z {{channel}}"
 		},
 		"leave": {
 			"error": "Nie jestem połączony z żadnym kanałem!",
-			"disconnected": "Odłączyłem się od kanału {{channel}}"
+			"disconnected": "Odłączyłem się od {{channel}}"
 		},
 		"nowplaying": {
 			"np": "Teraz odtwarzane",
 			"title": "Tytuł",
-			"artists": "Artysta(y)",
+			"artists": "Wykonawca(i)",
 			"album": "Album",
 			"progress": "Postęp",
-			"footer": "Playlista dostarczona przez Lofi Girl (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Klaster #{{cluster}}",
-			"like": "Lubię to",
-			"liked": "Polubiony",
+			"footer": "Playlista dostarczona przez Lofi Girl (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"like": "Polubienie",
+			"liked": "Polubione",
 			"liked_message": "> {{user}} Polubił piosenkę **{{song}}**",
-			"likes": "Osoby, które to polubiły"
+			"likes": "Lubią to"
 		},
 		"favorites": {
-			"no_favorites": "Nie masz żadnych ulubionych piosenek!",
+			"no_favorites": "Nie masz żadnych ulubionych utworów!",
 			"title": "Twoje ulubione piosenki",
-			"likes": "{{likes}} lubi to",
-			"unlike": "Usuń moje polubienie",
-
+			"likes": "{{likes}} polubień",
+			"unlike": "Usuń polubienie",
 			"modal": {
 				"title": "Usuń piosenkę z ulubionych",
 				"label": "Pozycja piosenki na liście ulubionych",
-				"placeholder": "Wprowadź pozycję piosenki na liście ulubionych (Po prawej stronie na liście ulubionych)",
-				"no_song": "Wskazana piosenka nie istnieje na Twojej liście ulubionych!",
+				"placeholder": "Proszę wprowadź pozycję piosenki na liście ulubionych (Na prawo na liście ulubionych)",
+				"no_song": "Podana piosenka nie istnieje na liście ulubionych!",
 				"unliked": "Piosenka {{song}} została usunięta z Twojej listy ulubionych"
 			}
 		},
@@ -50,18 +47,22 @@
 			"disabled": "{{emoji}} Wyłączone",
 			"change_radio": "Zmień radio",
 			"nowplaying_channel": "Kanał odtwarzania",
-
-			"language": "Oto lista dostępnych języków na bocie. Bot działa w oparciu o język zdefiniowany przez serwer i język Twojego klienta Discord.",
+			"language": "Oto lista dostępnych języków na tym bocie. Bot działa w oparciu o język zdefiniowany przez serwer i język Twojego klienta Discord.",
 			"languages": "Dostępne języki na bocie",
-			"translate_the_bot": "Pomóż nam tłumaczyć bota: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-
+			"translate_the_bot": "Pomóż nam przetłumaczyć tego bota: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
 			"changeradio": {
-				"non_premium": "Ten przycisk umożliwia zmianę między różnymi stacjami radiowymi oferowanymi przez ChilledBot. Ta funkcja jest dostępna tylko dla botów premium (ChilledPremium, ChilledPlus i ChilledPro). Odwiedź <https://chilledbot.xyz/premium>, aby uzyskać więcej informacji o planach premium."
+				"non_premium": "Ten przycisk pozwala zmieniać między kilkoma radio oferowanymi przez ChilledBot. Ta funkcja jest dostępna tylko dla botów premium (ChilledPremium, ChilledPlus i ChilledPro). Odwiedź <https://chilledbot.xyz/premium>, aby uzyskać więcej informacji na temat planów premium."
 			},
-
 			"nowplayingchannel": {
-				"non_premium": "Ten przycisk umożliwia skonfigurowanie kanału, na którym ChilledBot będzie wysyłać aktualnie odtwarzaną muzykę. Wiadomość zostanie automatycznie zaktualizowana. Ta funkcja jest dostępna tylko dla botów premium (ChilledPremium, ChilledPlus i ChilledPro). Odwiedź <https://chilledbot.xyz/premium>, aby uzyskać więcej informacji o planach premium."
+				"non_premium": "Ten przycisk pozwala skonfigurować kanał, na którym ChilledBot będzie wysyłać obecnie odtwarzaną muzykę. Wiadomość ta jest aktualizowana automatycznie. Ta funkcja jest dostępna tylko dla botów premium (ChilledPremium, ChilledPlus i ChilledPro). Odwiedź <https://chilledbot.xyz/premium>, aby uzyskać więcej informacji na temat planów premium."
 			}
 		}
+	},
+	"slash": {
+		"favorites": ["Pokazuje piosenki, które Ci się podobają."],
+		"join": ["Podłącza bota do kanału głosowego.", "Kanał głosowy, do którego ma się podłączyć."],
+		"leave": ["Odłącza bota od kanału głosowego."],
+		"nowplaying": ["Pokazuje aktualnie odtwarzany utwór."],
+		"settings": ["Pokazuje ustawienia serwera."]
 	}
 }

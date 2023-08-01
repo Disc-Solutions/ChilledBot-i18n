@@ -1,41 +1,41 @@
 {
 	"emoji": "🇪🇸",
 	"language": "Español",
-	"vote": "Vota por el bot al que apoyar 🇪🇸",
+	"vote": "Vota por el bot para apoyarnos",
 	"commands": {
 		"join": {
-			"error1": "¡Tienes que estar en un canal de voz o especificar uno!",
+			"error1": "¡Necesitas estar en un canal de voz o especificar uno!",
 			"error2": "¡No puedo unirme a ese canal!",
 			"error3": "¡No puedo hablar en ese canal!",
 			"connected": "Ahora conectado a {{channel}}"
 		},
 		"leave": {
-			"error": "¡No estoy conectado en ningún canal!",
+			"error": "¡No estoy conectado a ningún canal!",
 			"disconnected": "Me he desconectado de {{channel}}"
 		},
 		"nowplaying": {
-			"np": "está sonando",
+			"np": "Reproduciendo ahora",
 			"title": "Título",
 			"artists": "Artista(s)",
 			"album": "Álbum",
 			"progress": "Progreso",
 			"footer": "Lista de reproducción proporcionada por Lofi Girl (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
-			"like": "Como",
-			"liked": "le ha gustado",
-			"liked_message": "> {{user}} Me gustó la canción **{{song}}**",
-			"likes": "Personas a las que les ha gustado"
+			"like": "Me gusta",
+			"liked": "Gustó",
+			"liked_message": "> {{user}} Le gustó la canción **{{song}}**",
+			"likes": "Personas a las que les gustó"
 		},
 		"favorites": {
-			"no_favorites": "No tienes ninguna canción en tus favoritos.",
+			"no_favorites": "¡No tienes ninguna canción en tus favoritos!",
 			"title": "Tus canciones favoritas",
-			"likes": "{{likes}} le gusta",
+			"likes": "{{likes}} me gusta",
 			"unlike": "Quitar mi me gusta",
 			"modal": {
-				"title": "Eliminar una canción de tus favoritos",
+				"title": "Quitar una canción de tus favoritos",
 				"label": "Posición de la canción en la lista de favoritos",
-				"placeholder": "Introduzca la posición de la canción en su lista de favoritos (A la derecha en la lista de favoritos)",
-				"no_song": "La canción que has especificado no existe en tu lista de favoritos.",
-				"unliked": "La canción {{song}} ha sido eliminado de su lista de favoritos"
+				"placeholder": "Por favor, inserta la posición de la canción en tu lista de favoritos (A la derecha en la lista de favoritos)",
+				"no_song": "¡La canción que especificaste no existe en tu lista de favoritos!",
+				"unliked": "La canción {{song}} ha sido eliminada de tus favoritos"
 			}
 		},
 		"settings": {
@@ -43,18 +43,26 @@
 			"cluster": "Cluster del servidor",
 			"id": "ID del servidor",
 			"24/7": "24/7",
-			"enabled": "{{emoji}} Activado",
-			"disabled": "{{emoji}} Discapacitados",
-			"change_radio": "Cambiar la radio",
-			"nowplaying_channel": "Canal is playing",
-			"language": "Esta es la lista de idiomas disponibles en el bot. El bot se basa en el idioma definido por el servidor y en el idioma de tu cliente de Discord.",
+			"enabled": "{{emoji}} Habilitado",
+			"disabled": "{{emoji}} Deshabilitado",
+			"change_radio": "Cambiar Radio",
+			"nowplaying_channel": "Canal de Reproduciendo Ahora",
+			"language": "Aquí está la lista de idiomas disponibles en el bot. El bot se basa en el idioma definido por el servidor y en el idioma de tu cliente de Discord.",
 			"languages": "Idiomas disponibles en el bot",
+			"translate_the_bot": "Ayúdanos a traducir el bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
 			"changeradio": {
-				"non_premium": "Este botón le permite cambiar entre varias radios propuestas por ChilledBot. Esta función sólo está disponible para los bots premium (ChilledPremium, ChilledPlus y ChilledPro). Visite <https://chilledbot.xyz/premium> para obtener más información sobre los planes premium."
+				"non_premium": "Este botón te permite cambiar entre varias radios propuestas por ChilledBot. Esta característica solo está disponible para bots premium (ChilledPremium, ChilledPlus y ChilledPro). Visita <https://chilledbot.xyz/premium> para obtener más información sobre los planes premium."
 			},
 			"nowplayingchannel": {
-				"non_premium": "Este botón permite configurar un canal al que ChilledBot enviará la música que se esté reproduciendo en ese momento. El mensaje en cuestión se actualiza automáticamente. Esta función sólo está disponible para los bots premium (ChilledPremium, ChilledPlus y ChilledPro). Visite <https://chilledbot.xyz/premium> para obtener más información sobre los planes premium."
+				"non_premium": "Este botón te permite configurar un canal donde ChilledBot enviará la música que se está reproduciendo actualmente. El mensaje en cuestión se actualiza automáticamente. Esta característica solo está disponible para bots premium (ChilledPremium, ChilledPlus y ChilledPro). Visita <https://chilledbot.xyz/premium> para obtener más información sobre los planes premium."
 			}
 		}
+	},
+	"slash": {
+		"favorites": ["Muestra las canciones que te gustaron."],
+		"join": ["Conecta al bot a un canal de voz.", "El canal de voz al que conectar."],
+		"leave": ["Desconecta al bot del canal de voz."],
+		"nowplaying": ["Muestra la canción que se está reproduciendo actualmente."],
+		"settings": ["Muestra las configuraciones del servidor."]
 	}
 }

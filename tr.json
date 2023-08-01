@@ -1,14 +1,12 @@
 {
 	"emoji": "🇹🇷",
 	"language": "Türkçe",
-
-	"vote": "Bizi desteklemek için bot için oy verin",
-
+	"vote": "Bizi desteklemek için bota oy verin",
 	"commands": {
 		"join": {
-			"error1": "Bir ses kanalında olmalısınız veya bir tane belirtmelisiniz!",
-			"error2": "O kanala katılamıyorum!",
-			"error3": "O kanalda konuşamıyorum!",
+			"error1": "Bir ses kanalında olmalı veya bir tane belirtmelisiniz!",
+			"error2": "Bu kanala katılamıyorum!",
+			"error3": "Bu kanalda konuşamam!",
 			"connected": "Şimdi {{channel}} kanalına bağlandı"
 		},
 		"leave": {
@@ -16,52 +14,55 @@
 			"disconnected": "{{channel}} kanalından ayrıldım"
 		},
 		"nowplaying": {
-			"np": "Şu anda Çalıyor",
+			"np": "Şu Anda Çalıyor",
 			"title": "Başlık",
 			"artists": "Sanatçı(lar)",
 			"album": "Albüm",
 			"progress": "İlerleme",
-			"footer": "Oynatma listesi Lofi Girl tarafından sağlanmıştır (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Oynatma listesi, Lofi Girl tarafından sağlanmaktadır (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "Beğen",
 			"liked": "Beğenildi",
-			"liked_message": "> {{user}} **{{song}}** adlı şarkıyı beğendi",
-			"likes": "Beğenen kişiler"
+			"liked_message": "> {{user}} **{{song}}** şarkısını beğendi",
+			"likes": "Beğenenler"
 		},
 		"favorites": {
-			"no_favorites": "Favori şarkılarınız yok!",
+			"no_favorites": "Favorilerinizde hiç şarkı yok!",
 			"title": "Favori Şarkılarınız",
-			"likes": "{{likes}} beğeni",
-			"unlike": "Beğenimi kaldır",
-
+			"likes": "{{likes}} beğenme",
+			"unlike": "Beğeniyi kaldır",
 			"modal": {
-				"title": "Favorilerinizden bir şarkı çıkar",
-				"label": "Favoriler listesinde şarkının konumu",
-				"placeholder": "Lütfen favoriler listenizdeki şarkının konumunu girin (Favoriler listesinde sağda)",
-				"no_song": "Belirttiğiniz şarkı favoriler listenizde yok!",
-				"unliked": "{{song}} adlı şarkı favoriler listenizden çıkarıldı"
+				"title": "Şarkıyı favorilerinizden kaldır",
+				"label": "Favoriler listesindeki şarkının konumu",
+				"placeholder": "Lütfen favoriler listesindeki şarkının konumunu girin (Favoriler listesinde sağda)",
+				"no_song": "Belirtilen şarkı favoriler listenizde bulunmuyor!",
+				"unliked": "{{song}} şarkısı favorilerinizden kaldırıldı"
 			}
 		},
 		"settings": {
-			"shard": "Sunucunun Shardı",
+			"shard": "Sunucunun Shard'ı",
 			"cluster": "Sunucunun Kümesi",
 			"id": "Sunucunun Kimliği",
-			"24/7": "7/24",
+			"24/7": "24/7",
 			"enabled": "{{emoji}} Etkinleştirildi",
 			"disabled": "{{emoji}} Devre Dışı Bırakıldı",
 			"change_radio": "Radyo Değiştir",
-			"nowplaying_channel": "Şu Anda Çalınan Kanal",
-
-			"language": "Bot üzerinde kullanılabilir dillerin listesi. Bot, sunucunun belirlediği dil ve Discord istemcinizin diline dayalıdır.",
-			"languages": "Bot üzerinde kullanılabilir diller",
-			"translate_the_bot": "Botu çevirmemize yardımcı olun: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-
+			"nowplaying_channel": "Şu Anda Çalan Kanal",
+			"language": "Bot'ta mevcut olan dillerin bir listesi burada bulunmaktadır. Bot, sunucu tarafından belirlenen dil ve Discord istemcinizin diline dayalı olarak çalışır.",
+			"languages": "Bot'ta mevcut diller",
+			"translate_the_bot": "Botun çevirisine yardımcı olun: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
 			"changeradio": {
-				"non_premium": "Bu düğme, ChilledBot tarafından önerilen birkaç radyo arasında değişmenizi sağlar. Bu özellik yalnızca premium botlar (ChilledPremium, ChilledPlus ve ChilledPro) için kullanılabilir. Lütfen premium planlar hakkında daha fazla bilgi için <https://chilledbot.xyz/premium> adresini ziyaret edin."
+				"non_premium": "Bu düğme, ChilledBot tarafından sunulan çeşitli radyolar arasında geçiş yapmanıza olanak tanır. Bu özellik yalnızca premium botlar (ChilledPremium, ChilledPlus ve ChilledPro) için kullanılabilir. Premium planlar hakkında daha fazla bilgi için <https://chilledbot.xyz/premium> adresini ziyaret edin."
 			},
-
 			"nowplayingchannel": {
-				"non_premium": "Bu düğme, ChilledBot'un şu anda çalan müziği göndereceği bir kanalı yapılandırmanıza olanak sağlar. Söz konusu mesaj otomatik olarak güncellenir. Bu özellik yalnızca premium botlar (ChilledPremium, ChilledPlus ve ChilledPro) için kullanılabilir. Lütfen premium planlar hakkında daha fazla bilgi için <https://chilledbot.xyz/premium> adresini ziyaret edin."
+				"non_premium": "Bu düğme, ChilledBot'un şu anda çalınan müziği otomatik olarak göndereceği bir kanalı yapılandırmanıza olanak tanır. İlgili mesaj otomatik olarak güncellenir. Bu özellik yalnızca premium botlar (ChilledPremium, ChilledPlus ve ChilledPro) için kullanılabilir. Premium planlar hakkında daha fazla bilgi için <https://chilledbot.xyz/premium> adresini ziyaret edin."
 			}
 		}
+	},
+	"slash": {
+		"favorites": ["Beğendiğiniz şarkıları gösterir."],
+		"join": ["Botu bir ses kanalına bağlar.", "Bağlanmak istediğiniz ses kanalı."],
+		"leave": ["Botu bir ses kanalından çıkarır."],
+		"nowplaying": ["Şu anda çalınan şarkıyı gösterir."],
+		"settings": ["Sunucunun ayarlarını gösterir."]
 	}
 }

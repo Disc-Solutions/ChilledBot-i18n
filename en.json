@@ -57,5 +57,12 @@
 				"non_premium": "This button allows you to configure a channel where ChilledBot will send the music currently playing. The message in question is updated automatically. This feature is only available for premium bots (ChilledPremium, ChilledPlus and ChilledPro). Please visit <https://chilledbot.xyz/premium> for more information about the premium plans."
 			}
 		}
+	},
+	"slash": {
+		"favorites": ["Shows the songs you liked."],
+		"join": ["Connects the bot to a voice channel.", "The voice channel to connect to."],
+		"leave": ["Disconnects the bot from the voice channel."],
+		"nowplaying": ["Shows the song currently playing."],
+		"settings": ["Shows the settings of the server."]
 	}
 }
