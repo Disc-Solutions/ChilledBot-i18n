@@ -1,9 +1,7 @@
 {
 	"emoji": "🇫🇷",
 	"language": "Français",
-
 	"vote": "Votez pour le bot pour nous soutenir",
-
 	"commands": {
 		"join": {
 			"error1": "Vous devez être dans un salon vocal ou en spécifier un !",
@@ -26,14 +24,12 @@
 			"liked": "Aimé",
 			"liked_message": "> {{user}} a aimé la chanson **{{song}}**",
 			"likes": "Personnes qui ont aimé"
-
 		},
 		"favorites": {
 			"no_favorites": "Vous n'avez aucune chanson dans vos favoris !",
 			"title": "Vos chansons favorites",
 			"likes": "{{likes}} mentions J'aime",
 			"unlike": "Retirer mon J'aime",
-
 			"modal": {
 				"title": "Supprimer une chanson de vos favoris",
 				"label": "Position de la chanson dans la liste des favoris",
@@ -51,15 +47,12 @@
 			"disabled": "{{emoji}} Désactivé",
 			"change_radio": "Changer de radio",
 			"nowplaying_channel": "Salon de la lecture en cours",
-
 			"language": "Voici la liste des langues disponibles sur le bot. Le bot est basé sur la langue définie par le serveur et sur la langue de votre client Discord.",
 			"languages": "Langues disponibles sur le bot",
 			"translate_the_bot": "Aidez-nous à traduire le bot : <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-
 			"changeradio": {
 				"non_premium": "Ce bouton vous permet de changer parmi plusieurs radios proposées par ChilledBot. Cette fonctionnalité est uniquement disponible pour les bots premium (ChilledPremium, ChilledPlus et ChilledPro). Veuillez visiter <https://chilledbot.xyz/premium> pour plus d'informations sur les plans premium."
 			},
-
 			"nowplayingchannel": {
 				"non_premium": "Ce bouton vous permet de configurer un salon où ChilledBot enverra la musique en cours de lecture. Le message en question est mis à jour automatiquement. Cette fonctionnalité est uniquement disponible pour les bots premium (ChilledPremium, ChilledPlus et ChilledPro). Veuillez visiter <https://chilledbot.xyz/premium> pour plus d'informations sur les plans premium."
 			}

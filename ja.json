@@ -1,0 +1,67 @@
+{
+	"emoji": "🇯🇵",
+	"language": "日本語",
+
+	"vote": "サポートするためにボットに投票してください",
+	
+	"commands": {
+		"join": {
+			"error1": "ボイスチャンネルに参加するか、チャンネルを指定してください！",
+			"error2": "そのチャンネルに参加できません！",
+			"error3": "そのチャンネルでは話せません！",
+			"connected": "現在 {{channel}} に接続しました"
+		},
+		"leave": {
+			"error": "どのチャンネルにも接続していません！",
+			"disconnected": "{{channel}} から切断しました"
+		},
+		"nowplaying": {
+			"np": "再生中",
+			"title": "タイトル",
+			"artists": "アーティスト",
+			"album": "アルバム",
+			"progress": "進捗",
+			"footer": "プレイリスト提供: Lofi Girl (bit.ly/playlist-lofigirl) • シャード #{{shard}} • クラスター #{{cluster}}",
+			"like": "いいね",
+			"liked": "いいね済み",
+			"liked_message": "> {{user}}さんが曲 **{{song}}** をいいねしました",
+			"likes": "いいねした人"
+		},
+		"favorites": {
+			"no_favorites": "お気に入りの曲はありません！",
+			"title": "お気に入りの曲",
+			"likes": "{{likes}} いいね",
+			"unlike": "いいねを解除",
+
+			"modal": {
+				"title": "お気に入りから曲を削除",
+				"label": "お気に入りリスト内の曲の位置",
+				"placeholder": "お気に入りリスト内の曲の位置を入力してください（リストの右側に）",
+				"no_song": "指定した曲はお気に入りリストに存在しません！",
+				"unliked": "{{song}} がお気に入りリストから削除されました"
+			}
+		},
+		"settings": {
+			"shard": "サーバーのシャード",
+			"cluster": "サーバーのクラスター",
+			"id": "サーバーのID",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} 有効",
+			"disabled": "{{emoji}} 無効",
+			"change_radio": "ラジオを変更",
+			"nowplaying_channel": "再生中のチャンネル",
+
+			"language": "ボットで利用可能な言語のリストです。ボットはサーバーで定義された言語とDiscordクライアントの言語に基づいて動作します。",
+			"languages": "ボットで利用可能な言語",
+			"translate_the_bot": "ボットの翻訳を手伝ってください: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
+
+			"changeradio": {
+				"non_premium": "このボタンを使用すると、ChilledBotが提供する複数のラジオから選択できます。この機能はプレミアムボット（ChilledPremium、ChilledPlus、ChilledPro）のみ利用可能です。詳細については、<https://chilledbot.xyz/premium>をご覧ください。"
+			},
+
+			"nowplayingchannel": {
+				"non_premium": "このボタンを使用すると、ChilledBotが現在再生中の音楽を送信するチャンネルを設定できます。該当するメッセージは自動的に更新されます。この機能はプレミアムボット（ChilledPremium、ChilledPlus、ChilledPro）のみ利用可能です。詳細については、<https://chilledbot.xyz/premium>をご覧ください。"
+			}
+		}
+	}
+}

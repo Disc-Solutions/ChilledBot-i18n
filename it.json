@@ -1,9 +1,7 @@
 {
 	"emoji": "🇮🇹",
 	"language": "Italiano",
-
 	"vote": "Vota per il bot per sostenerci",
-	
 	"commands": {
 		"join": {
 			"error1": "Devi essere in un canale vocale o specificarne uno!",
@@ -32,7 +30,6 @@
 			"title": "Le tue canzoni preferite",
 			"likes": "{{likes}} mi piace",
 			"unlike": "Rimuovi il mio mi piace",
-
 			"modal": {
 				"title": "Rimuovi una canzone dai tuoi preferiti",
 				"label": "Posizione della canzone nella lista dei preferiti",
@@ -50,14 +47,11 @@
 			"disabled": "{{emoji}} Disabilitato",
 			"change_radio": "Cambia Radio",
 			"nowplaying_channel": "Canale per 'Ora in riproduzione'",
-
 			"language": "Ecco l'elenco delle lingue disponibili nel bot. Il bot si basa sulla lingua definita dal server e sulla lingua del tuo client Discord.",
 			"languages": "Lingue disponibili nel bot",
-
 			"changeradio": {
 				"non_premium": "Questo pulsante ti permette di scegliere tra le diverse radio proposte da ChilledBot. Questa funzione è disponibile solo per i bot premium (ChilledPremium, ChilledPlus e ChilledPro). Visita <https://chilledbot.xyz/premium> per maggiori informazioni sui piani premium."
 			},
-
 			"nowplayingchannel": {
 				"non_premium": "Questo pulsante ti permette di configurare il canale dove ChilledBot invierà la musica attualmente in riproduzione. Il messaggio in questione viene aggiornato automaticamente. Questa funzione è disponibile solo per i bot premium (ChilledPremium, ChilledPlus e ChilledPro). Visita <https://chilledbot.xyz/premium> per maggiori informazioni sui piani premium."
 			}

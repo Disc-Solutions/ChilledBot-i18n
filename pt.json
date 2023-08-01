@@ -1,9 +1,7 @@
 {
 	"emoji": "🇧🇷",
 	"language": "Português (Brasil)",
-
 	"vote": "Vote no bot para nos apoiar",
-	
 	"commands": {
 		"join": {
 			"error1": "Você precisa estar em um canal de voz ou especificar um!",

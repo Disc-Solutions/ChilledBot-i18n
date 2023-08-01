@@ -1,0 +1,67 @@
+{
+	"emoji": "🇰🇷",
+	"language": "한국어",
+
+	"vote": "우리를 지원하려면 봇에게 투표하세요",
+	
+	"commands": {
+		"join": {
+			"error1": "음성 채널에 참여하거나 채널을 지정해야 합니다!",
+			"error2": "해당 채널에 참여할 수 없습니다!",
+			"error3": "해당 채널에서 말할 수 없습니다!",
+			"connected": "이제 {{channel}}에 연결되었습니다"
+		},
+		"leave": {
+			"error": "어떤 채널에도 연결되지 않았습니다!",
+			"disconnected": "{{channel}}에서 접속을 해제했습니다"
+		},
+		"nowplaying": {
+			"np": "지금 재생 중",
+			"title": "제목",
+			"artists": "아티스트(들)",
+			"album": "앨범",
+			"progress": "진행 상황",
+			"footer": "재생 목록 제공: Lofi Girl (bit.ly/playlist-lofigirl) • 샤드 #{{shard}} • 클러스터 #{{cluster}}",
+			"like": "좋아요",
+			"liked": "좋아요 표시됨",
+			"liked_message": "> {{user}}님이 **{{song}}** 곡을 좋아합니다",
+			"likes": "이 노래를 좋아하는 사람들"
+		},
+		"favorites": {
+			"no_favorites": "즐겨찾기에 곡이 없습니다!",
+			"title": "즐겨찾기 곡",
+			"likes": "{{likes}} 좋아요",
+			"unlike": "좋아요 표시 취소",
+
+			"modal": {
+				"title": "즐겨찾기에서 곡 제거",
+				"label": "즐겨찾기 목록 내의 곡 위치",
+				"placeholder": "즐겨찾기 목록 내 곡 위치를 입력해주세요 (즐겨찾기 목록의 오른쪽에)",
+				"no_song": "지정한 곡이 즐겨찾기 목록에 없습니다!",
+				"unliked": "{{song}} 곡이 즐겨찾기 목록에서 제거되었습니다"
+			}
+		},
+		"settings": {
+			"shard": "서버의 샤드",
+			"cluster": "서버의 클러스터",
+			"id": "서버의 ID",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} 사용 가능",
+			"disabled": "{{emoji}} 사용 불가능",
+			"change_radio": "라디오 변경",
+			"nowplaying_channel": "현재 재생 중인 채널",
+
+			"language": "봇에서 사용 가능한 언어 목록입니다. 봇은 서버에서 정의한 언어와 Discord 클라이언트의 언어를 기반으로 작동합니다.",
+			"languages": "봇에서 사용 가능한 언어",
+			"translate_the_bot": "봇 번역에 도움을 주세요: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
+
+			"changeradio": {
+				"non_premium": "이 버튼을 사용하면 ChilledBot이 제공하는 여러 라디오 중에서 선택할 수 있습니다. 이 기능은 프리미엄 봇 (ChilledPremium, ChilledPlus, ChilledPro)에서만 사용할 수 있습니다. 프리미엄 플랜에 대한 자세한 정보는 <https://chilledbot.xyz/premium>에서 확인하십시오."
+			},
+
+			"nowplayingchannel": {
+				"non_premium": "이 버튼을 사용하면 ChilledBot이 현재 재생 중인 음악을 보낼 채널을 설정할 수 있습니다. 해당 메시지는 자동으로 업데이트됩니다. 이 기능은 프리미엄 봇 (ChilledPremium, ChilledPlus, ChilledPro)에서만 사용할 수 있습니다. 프리미엄 플랜에 대한 자세한 정보는 <https://chilledbot.xyz/premium>에서 확인하십시오."
+			}
+		}
+	}
+}

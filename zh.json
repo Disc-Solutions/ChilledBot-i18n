@@ -1,0 +1,67 @@
+{
+	"emoji": "🇨🇳",
+	"language": "中文（简体）",
+
+	"vote": "投票支持我们的机器人",
+	
+	"commands": {
+		"join": {
+			"error1": "您需要进入一个语音频道或者指定一个语音频道！",
+			"error2": "我无法加入该频道！",
+			"error3": "我无法在该频道中发言！",
+			"connected": "已连接到 {{channel}}"
+		},
+		"leave": {
+			"error": "我未连接到任何频道！",
+			"disconnected": "我已从 {{channel}} 断开连接"
+		},
+		"nowplaying": {
+			"np": "正在播放",
+			"title": "标题",
+			"artists": "艺术家",
+			"album": "专辑",
+			"progress": "进度",
+			"footer": "播放列表由 Lofi Girl 提供 (bit.ly/playlist-lofigirl) • Shard #{{shard}} • Cluster #{{cluster}}",
+			"like": "喜欢",
+			"liked": "已喜欢",
+			"liked_message": "> {{user}} 喜欢这首歌 **{{song}}**",
+			"likes": "喜欢此曲的人"
+		},
+		"favorites": {
+			"no_favorites": "您的收藏中没有任何歌曲！",
+			"title": "您的收藏歌曲",
+			"likes": "{{likes}} 个喜欢",
+			"unlike": "取消我的喜欢",
+
+			"modal": {
+				"title": "从您的收藏中移除一首歌曲",
+				"label": "收藏列表中的歌曲位置",
+				"placeholder": "请插入收藏列表中歌曲的位置（在收藏列表的右侧）",
+				"no_song": "您指定的歌曲不存在于收藏列表中！",
+				"unliked": "已从您的收藏中移除歌曲 {{song}}"
+			}
+		},
+		"settings": {
+			"shard": "服务器的分片",
+			"cluster": "服务器的群集",
+			"id": "服务器的ID",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} 已启用",
+			"disabled": "{{emoji}} 已禁用",
+			"change_radio": "更换电台",
+			"nowplaying_channel": "当前播放频道",
+
+			"language": "这里是机器人可用的语言列表。机器人基于服务器定义的语言和您的Discord客户端语言进行操作。",
+			"languages": "机器人可用的语言",
+			"translate_the_bot": "帮助我们翻译机器人： <https://github.com/Disc-Solutions/ChilledBot-i18n>",
+
+			"changeradio": {
+				"non_premium": "此按钮可供您在ChilledBot提供的几个电台之间选择。此功能仅适用于高级机器人（ChilledPremium、ChilledPlus和ChilledPro）。有关高级计划的更多信息，请访问 <https://chilledbot.xyz/premium>。"
+			},
+
+			"nowplayingchannel": {
+				"non_premium": "此按钮允许您配置ChilledBot将当前播放的音乐发送到的频道。相关消息会自动更新。此功能仅适用于高级机器人（ChilledPremium、ChilledPlus和ChilledPro）。有关高级计划的更多信息，请访问 <https://chilledbot.xyz/premium>。"
+			}
+		}
+	}
+}
