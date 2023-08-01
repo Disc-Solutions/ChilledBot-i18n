@@ -1,0 +1,68 @@
+{
+	"emoji": "🇫🇷",
+	"language": "Français",
+
+	"vote": "Votez pour le bot pour nous soutenir",
+
+	"commands": {
+		"join": {
+			"error1": "Vous devez être dans un salon vocal ou en spécifier un !",
+			"error2": "Je ne peux pas rejoindre ce salon !",
+			"error3": "Je ne peux pas parler dans ce salon !",
+			"connected": "Maintenant connecté à {{channel}}"
+		},
+		"leave": {
+			"error": "Je ne suis connecté à aucun salon !",
+			"disconnected": "Je me suis déconnecté de {{channel}}"
+		},
+		"nowplaying": {
+			"np": "En cours de lecture",
+			"title": "Titre",
+			"artists": "Artiste(s)",
+			"album": "Album",
+			"progress": "Avancement",
+			"footer": "Playlist fournie par Lofi Girl (bit.ly/playlist-lofigirl) • Shard #{{shard}} • Cluster #{{cluster}}",
+			"like": "Aimer",
+			"liked": "Aimé",
+			"liked_message": "> {{user}} a aimé la chanson **{{song}}**",
+			"likes": "Personnes qui ont aimé"
+
+		},
+		"favorites": {
+			"no_favorites": "Vous n'avez aucune chanson dans vos favoris !",
+			"title": "Vos chansons favorites",
+			"likes": "{{likes}} mentions J'aime",
+			"unlike": "Retirer mon J'aime",
+
+			"modal": {
+				"title": "Supprimer une chanson de vos favoris",
+				"label": "Position de la chanson dans la liste des favoris",
+				"placeholder": "Veuillez insérer la position de la chanson dans votre liste de favoris (À droite dans la liste des favoris)",
+				"no_song": "La chanson que vous avez spécifiée n'existe pas dans votre liste de favoris !",
+				"unliked": "La chanson {{song}} a été retirée de votre liste de favoris"
+			}
+		},
+		"settings": {
+			"shard": "Fragment du serveur",
+			"cluster": "Cluster du serveur",
+			"id": "ID du serveur",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} Activé",
+			"disabled": "{{emoji}} Désactivé",
+			"change_radio": "Changer de radio",
+			"nowplaying_channel": "Salon de la lecture en cours",
+
+			"language": "Voici la liste des langues disponibles sur le bot. Le bot est basé sur la langue définie par le serveur et sur la langue de votre client Discord.",
+			"languages": "Langues disponibles sur le bot",
+			"translate_the_bot": "Aidez-nous à traduire le bot : <https://github.com/Disc-Solutions/ChilledBot-i18n>",
+
+			"changeradio": {
+				"non_premium": "Ce bouton vous permet de changer parmi plusieurs radios proposées par ChilledBot. Cette fonctionnalité est uniquement disponible pour les bots premium (ChilledPremium, ChilledPlus et ChilledPro). Veuillez visiter <https://chilledbot.xyz/premium> pour plus d'informations sur les plans premium."
+			},
+
+			"nowplayingchannel": {
+				"non_premium": "Ce bouton vous permet de configurer un salon où ChilledBot enverra la musique en cours de lecture. Le message en question est mis à jour automatiquement. Cette fonctionnalité est uniquement disponible pour les bots premium (ChilledPremium, ChilledPlus et ChilledPro). Veuillez visiter <https://chilledbot.xyz/premium> pour plus d'informations sur les plans premium."
+			}
+		}
+	}
+}
