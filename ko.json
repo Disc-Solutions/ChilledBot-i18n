@@ -19,7 +19,7 @@
 			"artists": "아티스트",
 			"album": "앨범",
 			"progress": "진행 상황",
-			"footer": "플레이리스트는 Lofi Girl (bit.ly/playlist-lofigirl) 에서 제공됩니다  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "좋아요",
 			"liked": "좋아요한 곡",
 			"liked_message": "> {{user}} 님이 **{{song}}** 음악을 좋아합니다",

@@ -19,7 +19,7 @@
 			"artists": "कलाकार(ओं)",
 			"album": "एल्बम",
 			"progress": "प्रगति",
-			"footer": "प्लेलिस्ट Lofi Girl द्वारा प्रदान की गई है (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "पसंद",
 			"liked": "पसंद किया गया",
 			"liked_message": "> {{user}} ने गाने **{{song}}** को पसंद किया",

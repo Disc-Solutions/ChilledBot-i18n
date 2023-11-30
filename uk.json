@@ -19,7 +19,7 @@
 			"artists": "Виконавець(і)",
 			"album": "Альбом",
 			"progress": "Прогрес",
-			"footer": "Плейлист наданий Lofi Girl (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "Вподобати",
 			"liked": "Вподобано",
 			"liked_message": "> {{user}} Вподобав пісню **{{song}}**",

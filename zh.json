@@ -19,7 +19,7 @@
 			"artists": "艺术家",
 			"album": "专辑",
 			"progress": "进度",
-			"footer": "由 Lofi Girl 提供的播放列表 (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "点赞",
 			"liked": "已点赞",
 			"liked_message": "> {{user}} 点赞了这首歌曲 **{{song}}**",

@@ -19,7 +19,7 @@
 			"artists": "アーティスト",
 			"album": "アルバム",
 			"progress": "進捗",
-			"footer": "プレイリストはLofi Girl (bit.ly/playlist-lofigirl) によって提供されています  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "いいね",
 			"liked": "いいね済み",
 			"liked_message": "> {{user}} さんが **{{song}}** の曲にいいねしました",

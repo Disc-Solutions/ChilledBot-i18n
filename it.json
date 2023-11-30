@@ -19,7 +19,7 @@
 			"artists": "Artista(i)",
 			"album": "Album",
 			"progress": "Progresso",
-			"footer": "Playlist fornita da Lofi Girl (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "Mi piace",
 			"liked": "Piace",
 			"liked_message": "> {{user}} Piace la canzone **{{song}}**",

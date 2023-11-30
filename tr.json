@@ -19,7 +19,7 @@
 			"artists": "Sanatçı(lar)",
 			"album": "Albüm",
 			"progress": "İlerleme",
-			"footer": "Oynatma listesi, Lofi Girl tarafından sağlanmaktadır (bit.ly/playlist-lofigirl)  •  Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "Beğen",
 			"liked": "Beğenildi",
 			"liked_message": "> {{user}} **{{song}}** şarkısını beğendi",
