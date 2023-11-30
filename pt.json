@@ -45,17 +45,9 @@
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Habilitado",
 			"disabled": "{{emoji}} Desabilitado",
-			"change_radio": "Mudar Estação de Rádio",
-			"nowplaying_channel": "Canal de Reprodução Atual",
 			"language": "Aqui está a lista de idiomas disponíveis no bot. O bot é baseado no idioma definido pelo servidor e no idioma do seu cliente do Discord.",
 			"languages": "Idiomas disponíveis no bot",
-			"translate_the_bot": "Ajude a traduzir o bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-			"changeradio": {
-				"non_premium": "Este botão permite que você alterne entre várias rádios propostas pelo ChilledBot. Essa funcionalidade está disponível apenas para bots premium (ChilledPremium, ChilledPlus e ChilledPro). Visite <https://chilledbot.xyz/premium> para obter mais informações sobre os planos premium."
-			},
-			"nowplayingchannel": {
-				"non_premium": "Este botão permite que você configure um canal onde o ChilledBot enviará a música que está tocando atualmente. A mensagem em questão é atualizada automaticamente. Essa funcionalidade está disponível apenas para bots premium (ChilledPremium, ChilledPlus e ChilledPro). Visite <https://chilledbot.xyz/premium> para obter mais informações sobre os planos premium."
-			}
+			"translate_the_bot": "Ajude a traduzir o bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {

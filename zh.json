@@ -45,17 +45,9 @@
 			"24/7": "24/7",
 			"enabled": "{{emoji}} 已启用",
 			"disabled": "{{emoji}} 已禁用",
-			"change_radio": "切换电台",
-			"nowplaying_channel": "正在播放的频道",
 			"language": "以下是机器人上可用的语言列表。机器人基于服务器定义的语言和您的 Discord 客户端的语言。",
 			"languages": "机器人上可用的语言",
-			"translate_the_bot": "帮助我们翻译机器人：<https://github.com/Disc-Solutions/ChilledBot-i18n>",
-			"changeradio": {
-				"non_premium": "此按钮允许您在 ChilledBot 提供的多个电台之间切换。此功能仅适用于高级机器人（ChilledPremium、ChilledPlus 和 ChilledPro）。有关高级计划的更多信息，请访问 <https://chilledbot.xyz/premium>。"
-			},
-			"nowplayingchannel": {
-				"non_premium": "此按钮允许您配置 ChilledBot 将当前播放的音乐发送到的频道。相关消息将自动更新。此功能仅适用于高级机器人（ChilledPremium、ChilledPlus 和 ChilledPro）。有关高级计划的更多信息，请访问 <https://chilledbot.xyz/premium>。"
-			}
+			"translate_the_bot": "帮助我们翻译机器人：<https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {

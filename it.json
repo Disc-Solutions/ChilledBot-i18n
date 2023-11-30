@@ -45,17 +45,9 @@
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Abilitato",
 			"disabled": "{{emoji}} Disabilitato",
-			"change_radio": "Cambia Radio",
-			"nowplaying_channel": "Canale Riproduzione in corso",
 			"language": "Ecco la lista delle lingue disponibili sul bot. Il bot è basato sulla lingua definita dal server e sulla lingua del tuo client Discord.",
 			"languages": "Lingue disponibili sul bot",
-			"translate_the_bot": "Aiutaci a tradurre il bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-			"changeradio": {
-				"non_premium": "Questo pulsante ti consente di cambiare tra diverse radio proposte da ChilledBot. Questa funzione è disponibile solo per i bot premium (ChilledPremium, ChilledPlus e ChilledPro). Visita <https://chilledbot.xyz/premium> per ulteriori informazioni sui piani premium."
-			},
-			"nowplayingchannel": {
-				"non_premium": "Questo pulsante ti consente di configurare un canale in cui ChilledBot invierà la musica attualmente in riproduzione. Il messaggio in questione viene aggiornato automaticamente. Questa funzione è disponibile solo per i bot premium (ChilledPremium, ChilledPlus e ChilledPro). Visita <https://chilledbot.xyz/premium> per ulteriori informazioni sui piani premium."
-			}
+			"translate_the_bot": "Aiutaci a tradurre il bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {

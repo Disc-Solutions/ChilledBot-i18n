@@ -45,17 +45,9 @@
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Увімкнено",
 			"disabled": "{{emoji}} Вимкнено",
-			"change_radio": "Змінити радіо",
-			"nowplaying_channel": "Канал поточного відтворення",
 			"language": "Ось список доступних мов у боті. Бот працює на основі мови, визначеної сервером, та мови вашого клієнта Discord.",
 			"languages": "Доступні мови у боті",
-			"translate_the_bot": "Допоможіть перекласти бота: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-			"changeradio": {
-				"non_premium": "Ця кнопка дозволяє перемикатися між кількома радіостанціями, запропонованими ChilledBot. Ця функція доступна лише для преміум-ботів (ChilledPremium, ChilledPlus та ChilledPro). Відвідайте <https://chilledbot.xyz/premium>, щоб отримати більше інформації про преміум-плани."
-			},
-			"nowplayingchannel": {
-				"non_premium": "Ця кнопка дозволяє настроїти канал, на який ChilledBot буде надсилати поточно відтворювану музику. Повідомлення відповідного змісту автоматично оновлюється. Ця функція доступна лише для преміум-ботів (ChilledPremium, ChilledPlus та ChilledPro). Відвідайте <https://chilledbot.xyz/premium>, щоб отримати більше інформації про преміум-плани."
-			}
+			"translate_the_bot": "Допоможіть перекласти бота: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {

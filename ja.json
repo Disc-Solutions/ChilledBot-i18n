@@ -45,17 +45,9 @@
 			"24/7": "24/7",
 			"enabled": "{{emoji}} 有効",
 			"disabled": "{{emoji}} 無効",
-			"change_radio": "ラジオを変更",
-			"nowplaying_channel": "現在再生中のチャンネル",
 			"language": "ボットで利用可能な言語のリストです。ボットはサーバーで定義された言語とあなたのDiscordクライアントの言語に基づいて動作します。",
 			"languages": "ボットで利用可能な言語",
-			"translate_the_bot": "ボットの翻訳を手伝ってください： <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-			"changeradio": {
-				"non_premium": "このボタンを使用すると、ChilledBotが提供する複数のラジオの中から切り替えることができます。この機能はプレミアムボット（ChilledPremium、ChilledPlus、ChilledPro）のみ利用可能です。プレミアムプランについての詳細は <https://chilledbot.xyz/premium> をご覧ください。"
-			},
-			"nowplayingchannel": {
-				"non_premium": "このボタンを使用すると、ChilledBotが現在再生中の音楽を自動的に送信するチャンネルを設定できます。この機能はプレミアムボット（ChilledPremium、ChilledPlus、ChilledPro）のみ利用可能です。プレミアムプランについての詳細は <https://chilledbot.xyz/premium> をご覧ください。"
-			}
+			"translate_the_bot": "ボットの翻訳を手伝ってください： <https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {

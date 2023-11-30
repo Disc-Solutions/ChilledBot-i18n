@@ -49,13 +49,7 @@
 			"nowplaying_channel": "Canal de Reproduciendo Ahora",
 			"language": "Aquí está la lista de idiomas disponibles en el bot. El bot se basa en el idioma definido por el servidor y en el idioma de tu cliente de Discord.",
 			"languages": "Idiomas disponibles en el bot",
-			"translate_the_bot": "Ayúdanos a traducir el bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-			"changeradio": {
-				"non_premium": "Este botón te permite cambiar entre varias radios propuestas por ChilledBot. Esta característica solo está disponible para bots premium (ChilledPremium, ChilledPlus y ChilledPro). Visita <https://chilledbot.xyz/premium> para obtener más información sobre los planes premium."
-			},
-			"nowplayingchannel": {
-				"non_premium": "Este botón te permite configurar un canal donde ChilledBot enviará la música que se está reproduciendo actualmente. El mensaje en cuestión se actualiza automáticamente. Esta característica solo está disponible para bots premium (ChilledPremium, ChilledPlus y ChilledPro). Visita <https://chilledbot.xyz/premium> para obtener más información sobre los planes premium."
-			}
+			"translate_the_bot": "Ayúdanos a traducir el bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {

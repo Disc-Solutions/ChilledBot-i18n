@@ -45,17 +45,9 @@
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Etkinleştirildi",
 			"disabled": "{{emoji}} Devre Dışı Bırakıldı",
-			"change_radio": "Radyo Değiştir",
-			"nowplaying_channel": "Şu Anda Çalan Kanal",
 			"language": "Bot'ta mevcut olan dillerin bir listesi burada bulunmaktadır. Bot, sunucu tarafından belirlenen dil ve Discord istemcinizin diline dayalı olarak çalışır.",
 			"languages": "Bot'ta mevcut diller",
-			"translate_the_bot": "Botun çevirisine yardımcı olun: <https://github.com/Disc-Solutions/ChilledBot-i18n>",
-			"changeradio": {
-				"non_premium": "Bu düğme, ChilledBot tarafından sunulan çeşitli radyolar arasında geçiş yapmanıza olanak tanır. Bu özellik yalnızca premium botlar (ChilledPremium, ChilledPlus ve ChilledPro) için kullanılabilir. Premium planlar hakkında daha fazla bilgi için <https://chilledbot.xyz/premium> adresini ziyaret edin."
-			},
-			"nowplayingchannel": {
-				"non_premium": "Bu düğme, ChilledBot'un şu anda çalınan müziği otomatik olarak göndereceği bir kanalı yapılandırmanıza olanak tanır. İlgili mesaj otomatik olarak güncellenir. Bu özellik yalnızca premium botlar (ChilledPremium, ChilledPlus ve ChilledPro) için kullanılabilir. Premium planlar hakkında daha fazla bilgi için <https://chilledbot.xyz/premium> adresini ziyaret edin."
-			}
+			"translate_the_bot": "Botun çevirisine yardımcı olun: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {
