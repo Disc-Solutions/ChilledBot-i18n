@@ -21,7 +21,7 @@
 			"progress": "สถานะ",
 			"footer": "ชาร์ด #{{shard}} • คลัสเตอร์ #{{cluster}}",
 			"like": "ชอบ",
-			"liked": "✅ ชอบ",
+			"liked": "ชอบ",
 			"liked_message": "> {{user}} ชอบเพลง **{{song}}**",
 			"likes": "คนที่ชอบเพลงนี้"
 		},
