@@ -1,0 +1,60 @@
+{
+	"emoji": "🇷🇴",
+	"language": "Română",
+	"vote": "Votează pentru bot și pentru a ne susține",
+	"commands": {
+		"join": {
+			"error1": "Trebuie sa fii într-un canal de voce sau sa specifici unul!",
+			"error2": "Nu pot intra în acel canal!",
+			"error3": "Nu pot vorbi în acel canal!",
+			"connected": "Acum conectat la {{channel}}"
+		},
+		"leave": {
+			"error": "Nu sunt conectat la niciun canal!",
+			"disconnected": "M-am deconectat de la {{channel}}"
+		},
+		"nowplaying": {
+			"np": "Acum cântă",
+			"title": "Titlu",
+			"artists": "Artist(i)",
+			"album": "Album",
+			"progress": "Progres",
+			"footer": "Fragment #{{shard}}  •  Grup #{{cluster}}",
+			"like": "Apreciere",
+			"liked": "Apreciat",
+			"liked_message": "> {{user}} A apreciat melodia **{{song}}**",
+			"likes": "Oameni care au apreciat"
+		},
+		"favorites": {
+			"no_favorites": "Nu ai nicio melodie in favorite!",
+			"title": "Melodiile tale favorite",
+			"likes": "{{likes}} aprecieri",
+			"unlike": "Șterge-mi aprecierea",
+			"modal": {
+				"title": "Șterge o melodie din favoritele tale",
+				"label": "Pozitia melodiei în favoritele tale",
+				"placeholder": "Te rog inserează pozitia melodiei în favoritele tale (Pe partea dreaptă din lista de favorite)",
+				"no_song": "Melodia pe care ai specificat-o nu există în favoritele tale!",
+				"unliked": "Melodia {{song}} a fost ștearsă din lista ta de favorite"
+			}
+		},
+		"settings": {
+			"shard": "Fragmentul serverului (Shard)",
+			"cluster": "Grupul serverului (Cluster)",
+			"id": "ID-ul serverului",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} Activat",
+			"disabled": "{{emoji}} Dezactivat",
+			"language": "Aici ai o listă de limbi disponibile pentru bot. Bot-ul e bazat pe limba serverului și pe limba client-ului tău de Discord.",
+			"languages": "Limbi disponibile pentru bot",
+			"translate_the_bot": "Ajută-ne să traducem bot-ul: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
+		}
+	},
+	"slash": {
+		"favorites": ["Arată melodiile pe care le-ai apreciat."],
+		"join": ["Conectează bot-ul într-un canal de voce.", "Canalul de voce la care să se conecteze."],
+		"leave": ["Deconectează bot-ul de la canalul de voce."],
+		"nowplaying": ["Arată melodia care cântă în prezent."],
+		"settings": ["Arată setările serverului."]
+	}
+}
