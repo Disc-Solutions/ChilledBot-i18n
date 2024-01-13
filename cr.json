@@ -1,0 +1,60 @@
+{
+	"emoji": "🇭🇷",
+	"language": "Hrvatski",
+	"vote": "Glasajte za našeg bota da bi nas podržao",
+	"commands": {
+		"join": {
+			"error1": "Morate da budete u glasovnom pozivu ili da specifikujete kanal",
+			"error2": "Ne mogu da se pridružim tom kanalu",
+			"error3": "Ne mogu da pričam u tom kanalu",
+			"connected": "Povezan sa {{channel}}"
+		},
+		"leave": {
+			"error": "Nisam povezan ni sa jednim kanalom",
+			"disconnected": "Isključio sam se iz {{channel}}"
+		},
+		"nowplaying": {
+			"np": "Sada puštam",
+			"title": "Naslov",
+			"artists": "Umetnik",
+			"album": "Album",
+			"progress": "Napredak",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"like": "Lajkujte",
+			"liked": "Lajkovali ste",
+			"liked_message": "> {{user}} je lajkovao/la pesmu **{{song}}**",
+			"likes": "Ljudi koji su lajkovali"
+		},
+		"favorites": {
+			"no_favorites": "Nemate pesme u listi omiljenih",
+			"title": "Vaše omiljene pesme",
+			"likes": "{{likes}} lajkova",
+			"unlike": "Uklonite vaš lajk",
+			"modal": {
+				"title": "Uklonite pesmu iz liste omiljenih",
+				"label": "Pesmina pozicija u vašoj listi omiljenih",
+				"placeholder": "Molimo ubacite poziciju pesme u vašim omiljenima (Desno na listi omiljenih)",
+				"no_song": "Ta pesma nije na vašoj listi omiljenih ",
+				"unliked": "Pesma {{song}} je uklonjena iz vaše liste omiljenih"
+			}
+		},
+		"settings": {
+			"shard": "Shard servera",
+			"cluster": "Cluster servera",
+			"id": "ID servera",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} Uključeno",
+			"disabled": "{{emoji}} Isključeno",
+			"language": "Evo je lista jezika u ovome botu. Bot je zasnovan na jeziku ovog servera i na jeziku vaše aplikacije",
+			"languages": "Jezici koje bot poseduje",
+			"translate_the_bot": "Pomozi nam da prevedemo bota: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
+		}
+	},
+	"slash": {
+		"favorites": ["Pokazuje pesme koje si lajkovao."],
+		"join": ["Povezuje bota u kanal", "Kanal u koji da se poveže."],
+		"leave": ["Isključuje bota iz kanala."],
+		"nowplaying": ["Pokazuje pesmu koja trenutno se pušta."],
+		"settings": ["Pokazuje podešavanja servera."]
+	}
+}
