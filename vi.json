@@ -1,0 +1,60 @@
+{
+	"emoji": "🇻🇳",
+	"language": "Tiếng Việt",
+	"vote": "Bình chọn cho bot để ủng hộ chúng tớ",
+	"commands": {
+		"join": {
+			"error1": "Bạn cần ở trong một kênh thoại hoặc chỉ định một kênh thoại bất kỳ!",
+			"error2": "Tớ không thể tham gia kênh thoại đó!",
+			"error3": "Tớ không thể nói được ở trong kênh thoại đó!",
+			"connected": "Đang kết nối tới {{channel}}"
+		},
+		"leave": {
+			"error": "Tớ không được kết nối tới một kênh thoại nào cả!",
+			"disconnected": "Tớ đã ngắt kết nối khỏi {{channel}}"
+		},
+		"nowplaying": {
+			"np": "Đang Phát",
+			"title": "Tiêu Đề",
+			"artists": "(Các) Nghệ Sĩ",
+			"album": "Album",
+			"progress": "Tiến Trình",
+			"footer": "Phân Đoạn #{{shard}}  •  Cụm Máy Tính #{{cluster}}",
+			"like": "Thích",
+			"liked": "Đã Thích",
+			"liked_message": "> {{user}} đã thích bài hát **{{song}}**",
+			"likes": "Những người đã thích nó"
+		},
+		"favorites": {
+			"no_favorites": "Bạn không có bài hát nào trong danh sách yêu thích cả!",
+			"title": "Những bài hát yêu thích của bạn!",
+			"likes": "{{likes}} thích",
+			"unlike": "Bỏ thích",
+			"modal": {
+				"title": "Xoá một bài hát khỏi danh sách yêu thích của bạn",
+				"label": "Vị trí của bài hát trong danh sách yêu thích",
+				"placeholder": "Hãy nhập vị trí của bài hát trong danh sách yêu thích của bạn (Ở cột phải của danh sách yêu thích)",
+				"no_song": "Bài hát bạn đã chọn không có trong danh sách yêu thích của bạn!",
+				"unliked": "Bài hát {{song}} đã bị xoá khỏi danh sách yêu thích của bạn"
+			}
+		},
+		"settings": {
+			"shard": "Phân Đoạn Của Máy Chủ",
+			"cluster": "Cụm Máy Tính Của Máy Chủ",
+			"id": "ID Của Máy Chủ",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} Đã Bật",
+			"disabled": "{{emoji}} Đã Tắt",
+			"language": "Đây là danh sách các ngôn ngữ khả dụng của bot. Bot được dựa trên ngôn ngữ của máy chủ này và ngôn ngữ ứng dụng Discord của bạn.",
+			"languages": "Các ngôn ngữ khả dụng của bot",
+			"translate_the_bot": "Giúp chúng mình phiên dịch cho bot tại: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
+		}
+	},
+	"slash": {
+		"favorites": ["Hiện các bài hát bạn đã thích."],
+		"join": ["Kết nối bot tới một kênh thoại.", "Kênh thoại để bot kết nối tới."],
+		"leave": ["Ngắt kết nối khỏi một kênh thoại."],
+		"nowplaying": ["Hiện bài hát đang phát."],
+		"settings": ["Hiện các cài đặt của máy chủ này."]
+	}
+}
