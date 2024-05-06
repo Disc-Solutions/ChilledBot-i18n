@@ -23,11 +23,11 @@
 			"like": "Thích",
 			"liked": "Đã Thích",
 			"liked_message": "> {{user}} đã thích bài hát **{{song}}**",
-			"likes": "Những người đã thích nó"
+			"likes": "Số lượt thích"
 		},
 		"favorites": {
 			"no_favorites": "Bạn không có bài hát nào trong danh sách yêu thích cả!",
-			"title": "Những bài hát yêu thích của bạn!",
+			"title": "Những bài hát yêu thích của bạn:",
 			"likes": "{{likes}} thích",
 			"unlike": "Bỏ thích",
 			"modal": {
