@@ -1,0 +1,60 @@
+{
+	"emoji": "🇹🇼",
+	"language": "中文（繁體）",
+	"commands": {
+	"vote": "投票支持我們的機器人",
+		"join": {
+			"error1": "您需要在語音頻道內或是指定一個語音頻道！",
+			"error2": "我無法加入該頻道！",
+			"error3": "我無法在語音頻道內說話！",
+			"connected": "已加入 {{channel}}"
+		},
+		"leave": {
+			"error": "我沒有加入到任何語音頻道！",
+			"disconnected": "我已從 {{channel}} 中斷連線"
+		},
+		"nowplaying": {
+			"np": "正在播放",
+			"title": "標題",
+			"artists": "創作者",
+			"album": "專輯",
+			"progress": "進度",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"like": "收藏",
+			"liked": "已收藏",
+			"liked_message": "> {{user}} 收藏了這首歌曲 **{{song}}**",
+			"likes": "收藏的人"
+		},
+		"favorites": {
+			"no_favorites": "您沒有任何收藏的歌曲！",
+			"title": "您收藏的歌曲",
+			"likes": "{{likes}} 個用戶收藏",
+			"unlike": "取消收藏",
+			"modal": {
+				"title": "從收藏中移除一首歌曲",
+				"label": "歌曲在收藏列表中的位置",
+				"placeholder": "請輸入歌曲在收藏列表中的位置（在收藏列表右側）",
+				"no_song": "您指定的歌曲不在收藏列表中！",
+				"unliked": "已從您的收藏列表中移除歌曲 {{song}}"
+			}
+		},
+		"settings": {
+			"shard": "伺服器的 Shard",
+			"cluster": "伺服器的 Cluster",
+			"id": "伺服器的 ID",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} 已啟用",
+			"disabled": "{{emoji}} 已禁用",
+			"language": "以下是機器人的可用語言列表。 機器人語言會基於伺服器設定的主要語言與您的 Discord 用戶端語言。",
+			"languages": "機器人的可用語言",
+			"translate_the_bot": "幫助我們翻譯機器人：<https://github.com/Disc-Solutions/ChilledBot-i18n>"
+		}
+	},
+	"slash": {
+		"favorites": ["顯示您收藏的歌曲。"],
+		"join": ["將機器人加入語音頻道。", "要加入的語音頻道。"],
+		"leave": ["中斷機器人與語音頻道的連線。"],
+		"nowplaying": ["顯示正在播放的歌曲。"],
+		"settings": ["顯示伺服器的設定。"]
+	}
+}
