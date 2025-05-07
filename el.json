@@ -26,16 +26,16 @@
                         "likes": "Άνθρωποι που τους άρεσε"
                 },
                 "favorites": {
-                        "no_favorites": "Vous n'avez aucune chanson dans vos favoris !",
-                        "title": "Vos chansons favorites",
-                        "likes": "{{likes}} j'aime",
-                        "unlike": "Supprimer mon j'aime",
+                        "no_favorites": "Δεν έχετε κανένα τραγούδι στα αγαπημένα σας!",
+                        "title": "Τα αγαπημένα σας τραγούδια",
+                        "likes": "{{likes}} μου αρέσει",
+                        "unlike": "Διαγραφή μου αρέσει",
                         "modal": {
-                                "title": "Retirer une chanson de vos favoris",
-                                "label": "Position de la chanson dans la liste des favoris",
-                                "placeholder": "Veuillez insérer la position de la chanson dans votre liste de favoris (À droite dans la liste des favoris)",
-                                "no_song": "La chanson que vous avez spécifiée n'existe pas dans votre liste de favoris !",
-                                "unliked": "La chanson {{song}} a été supprimée de vos favoris"
+                                "title": "Αφαιρέστε ένα τραγούδι από τα αγαπημένα σας",
+                                "label": "Θέση του τραγουδιού στη λίστα αγαπημένων",
+                                "placeholder": "Εισαγάγετε τη θέση του τραγουδιού στη λίστα αγαπημένων σας (Δεξιά στη λίστα αγαπημένων)",
+                                "no_song": "Το τραγούδι που ορίσατε δεν υπάρχει στη λίστα των αγαπημένων σας!",
+                                "unliked": "Το τραγούδι {{song}} έχει αφαιρεθεί από τα αγαπημένα σας"
                         }
                 },
                 "settings": {
