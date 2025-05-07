@@ -39,22 +39,22 @@
                         }
                 },
                 "settings": {
-                        "shard": "Shard du serveur",
-                        "cluster": "Cluster du serveur",
-                        "id": "ID du serveur",
+                        "shard": "Θραύσμα αγγείου διακομιστή",
+                        "cluster": "Σύμπλεγμα αγγείου διακομιστή",
+                        "id": "Αναγνωριστικό διακομιστή",
                         "24/7": "24/7",
-                        "enabled": "{{emoji}} Activé",
-                        "disabled": "{{emoji}} Désactivé",
-                        "language": "Voici la liste des langues disponibles sur le bot. Le bot est basé sur la langue définie par le serveur et sur la langue de votre client Discord.",
-                        "languages": "Langues disponibles sur le bot",
-                        "translate_the_bot": "Aidez-nous à traduire le bot : <https://github.com/Disc-Solutions/ChilledBot-i18n>"
+                        "enabled": "{{emoji}} Ενεργοποιήθηκε",
+                        "disabled": "{{emoji}} Απενεργοποιήθηκε",
+                        "language": "Εδώ είναι η λίστα των γλωσσών που είναι διαθέσιμες στο bot. Το bot βασίζεται στη γλώσσα που έχει ορίσει ο διακομιστής και στη γλώσσα του πελάτη Discord.",
+                        "languages": "Οι γλώσσες που είναι διαθέσιμες στο bot",
+                        "translate_the_bot": "Βοηθήστε μας να μεταφράσουμε το bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
                 }
         },
         "slash": {
-                "favorites": ["Affiche les chansons que vous avez aimées."],
-                "join": ["Connecte le bot à un canal vocal.", "Le canal vocal auquel se connecter."],
-                "leave": ["Déconnecte le bot du canal vocal."],
-                "nowplaying": ["Affiche la chanson en cours de lecture."],
-                "settings": ["Affiche les paramètres du serveur."]
+                "favorites": ["Δείχνει τα τραγούδια που σας άρεσαν."],
+                "join": ["Συνδέει το bot σε ένα φωνητικό κανάλι.", "Το κανάλι φωνής προς σύνδεση."],
+                "leave": ["Αποσυνδέει το bot από το κανάλι φωνής."],
+                "nowplaying": ["Εμφανίζει το τραγούδι που παίζει αυτήν τη στιγμή."],
+                "settings": ["Εμφανίζει τις ρυθμίσεις διακομιστή."]
         }
 }
