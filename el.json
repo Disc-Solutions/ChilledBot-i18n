@@ -1,29 +1,29 @@
 {
         "emoji": "🇬🇷",
         "language": "Ελληνικά",
-        "vote": "Votez pour le bot pour nous soutenir",
+        "vote": "Ψηφίστε το bot για να μας υποστηρίξει",
         "commands": {
                 "join": {
-                        "error1": "Vous devez être dans un canal vocal ou en spécifier un !",
-                        "error2": "Je ne peux pas rejoindre ce canal !",
-                        "error3": "Je ne peux pas parler dans ce canal !",
-                        "connected": "Maintenant connecté à {{channel}}"
+                        "error1": "Πρέπει να βρίσκεστε σε κανάλι φωνής ή να καθορίσετε ένα!",
+                        "error2": "Δεν μπορώ να εγγραφώ σε αυτό το κανάλι!",
+                        "error3": "Δεν μπορώ να μιλήσω σε αυτό το κανάλι!",
+                        "connected": "Τώρα συνδέεται με {{channel}}"
                 },
                 "leave": {
-                        "error": "Je ne suis connecté à aucun canal !",
-                        "disconnected": "Je me suis déconnecté de {{channel}}"
+                        "error": "Δεν είμαι συνδεδεμένος με κανένα κανάλι!",
+                        "disconnected": "Έφυγα από {{channel}}"
                 },
                 "nowplaying": {
-                        "np": "En train de jouer",
-                        "title": "Titre",
-                        "artists": "Artiste(s)",
-                        "album": "Album",
-                        "progress": "Progrès",
-                        "footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
-                        "like": "J'aime",
-                        "liked": "Aimé",
-                        "liked_message": "> {{user}} a aimé la chanson **{{song}}**",
-                        "likes": "Personnes qui ont aimé"
+                        "np": "παιχνίδι",
+                        "title": "Τίτλος",
+                        "artists": "Καλλιτέχνης",
+                        "album": "Αλμπουμ",
+                        "progress": "Πρόοδος",
+                        "footer": "Θραύσμα αγγείου #{{shard}}  •  Σύμπλεγμα #{{cluster}}",
+                        "like": "μου αρέσει",
+                        "liked": "Αγάπη",
+                        "liked_message": "> {{user}} άρεσε το τραγούδι **{{song}}**",
+                        "likes": "Άνθρωποι που τους άρεσε"
                 },
                 "favorites": {
                         "no_favorites": "Vous n'avez aucune chanson dans vos favoris !",
