@@ -17,7 +17,7 @@
                         "np": "Τώρα Παιζει",
                         "title": "Τίτλος",
                         "artists": "Καλλιτέχνης(ες)",
-                        "album": "Αλμπουμ"
+                        "album": "Αλμπουμ",
                         "progress": "Πρόοδος",
                         "footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
                         "like": "μου αρέσει",
