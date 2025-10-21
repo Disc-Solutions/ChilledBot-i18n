@@ -1,0 +1,60 @@
+{
+	"emoji": "🇮🇩",
+	"language": "Indonesia",
+	"vote": "Beri suara untuk bot untuk mendukung kami",
+	"commands": {
+		"join": {
+			"error1": "Anda harus berada di saluran suara atau menentukannya!",
+			"error2": "Saya tidak bisa bergabung dengan saluran itu!",
+			"error3": "Saya tidak bisa berbicara di saluran itu!",
+			"connected": "Sekarang terhubung ke {{channel}}"
+		},
+		"leave": {
+			"error": "Saya tidak terhubung ke saluran mana pun!",
+			"disconnected": "Saya telah terputus dari {{channel}}"
+		},
+		"nowplaying": {
+			"np": "Sedang Diputar",
+			"title": "Judul",
+			"artists": "Artis",
+			"album": "Album",
+			"progress": "Progres",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"like": "Suka",
+			"liked": "Disukai",
+			"liked_message": "> {{user}} Menyukai lagu **{{song}}**",
+			"likes": "Orang yang menyukainya"
+		},
+		"favorites": {
+			"no_favorites": "Anda tidak memiliki lagu di favorit Anda!",
+			"title": "Lagu favorit Anda",
+			"likes": "{{likes}} suka",
+			"unlike": "Hapus yang disukai",
+			"modal": {
+				"title": "Hapus lagu dari favorit Anda",
+				"label": "Posisi lagu di daftar favorit",
+				"placeholder": "Silakan masukkan posisi lagu di daftar favorit Anda (Di sebelah kanan dalam daftar favorit)",
+				"no_song": "Lagu yang Anda tentukan tidak ada di daftar favorit Anda!",
+				"unliked": "Lagu {{song}} telah dihapus dari daftar favorit Anda"
+			}
+		},
+		"settings": {
+			"shard": "Shard Server",
+			"cluster": "Cluster Server",
+			"id": "ID Server",
+			"24/7": "24/7",
+			"enabled": "{{emoji}} Diaktifkan",
+			"disabled": "{{emoji}} Dinonaktifkan",
+			"language": "Berikut adalah daftar bahasa yang tersedia di bot. Bot ini didasarkan pada bahasa yang ditentukan oleh server dan bahasa klien Discord Anda.",
+			"languages": "Bahasa yang tersedia di bot",
+			"translate_the_bot": "Bantu kami menerjemahkan bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
+		}
+	},
+	"slash": {
+		"favorites": ["Menampilkan lagu yang Anda sukai."],
+		"join": ["Menghubungkan bot ke saluran suara.", "Saluran suara untuk dihubungkan."],
+		"leave": ["Memutuskan bot dari saluran suara."],
+		"nowplaying": ["Menampilkan lagu yang sedang diputar."],
+		"settings": ["Menampilkan pengaturan server."]
+	}
+}
