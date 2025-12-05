@@ -80,7 +80,7 @@ function compareKeys(referenceKeys, translationKeys, fileName) {
  * Main validation function
  */
 function validateTranslations() {
-  const repoRoot = path.resolve(__dirname, '../..');
+  const repoRoot = process.cwd();
   const referenceFile = path.join(repoRoot, 'en.json');
   
   console.log(`${colors.blue}=== Translation Validation ===${colors.reset}\n`);
@@ -172,7 +172,10 @@ function validateTranslations() {
     console.log(`${colors.red}Validation FAILED${colors.reset}`);
     process.exit(1);
   } else {
-    console.log(`${colors.green}All files valid: ${files.length + 1}${colors.reset}`);
+    console.log(`${colors.green}Files without errors: ${files.length + 1 - filesWithIssues.length}${colors.reset}`);
+    if (filesWithWarnings.length > 0) {
+      console.log(`${colors.yellow}Files with warnings: ${filesWithWarnings.length}${colors.reset}`);
+    }
     console.log('');
     console.log(`${colors.green}Validation PASSED${colors.reset}`);
     process.exit(0);
