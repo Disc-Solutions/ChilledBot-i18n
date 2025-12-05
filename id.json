@@ -5,8 +5,8 @@
 	"commands": {
 		"join": {
 			"error1": "Kamu harus ada di voice channel atau tentukan salah satunya!",
-			"error2": "Aku tidak bisa bergabung kedalam channel!",
-			"error3": "Aku tidak bisa berbicara didalam channel!",
+			"error2": "Aku tidak bisa bergabung ke dalam channel!",
+			"error3": "Aku tidak bisa berbicara di dalam channel!",
 			"connected": "Sekarang terhubung ke {{channel}}"
 		},
 		"leave": {
@@ -55,8 +55,8 @@
 			"Menampilkan lagu-lagu yang kamu suka."
 		],
 		"join": [
-			"Menghubungkan bot ke voice channel",
-			"Voice channel yang akan dihubungkan"
+			"Menghubungkan bot ke voice channel.",
+			"Voice channel yang akan dihubungkan."
 		],
 		"leave": [
 			"Mengeluarkan bot dari voice channel."
