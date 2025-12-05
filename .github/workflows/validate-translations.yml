@@ -1,0 +1,50 @@
+name: Validate Translations
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - '**.json'
+      - '.github/workflows/validate-translations.yml'
+      - '.github/scripts/validate-translations.js'
+
+jobs:
+  validate:
+    name: Validate JSON Translations
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Run validation script
+        run: node .github/scripts/validate-translations.js
+      
+      - name: Comment on PR (on failure)
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ **Translation Validation Failed**\n\nThe JSON validation check has failed. Please review the workflow logs for details on missing or extra keys, or JSON syntax errors.\n\n[View workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})'
+            })
+      
+      - name: Comment on PR (on success)
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ **Translation Validation Passed**\n\nAll JSON files are valid and have matching keys with en.json!'
+            })
