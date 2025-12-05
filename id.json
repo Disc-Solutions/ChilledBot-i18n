@@ -16,9 +16,9 @@
 		"nowplaying": {
 			"np": "Sedang Diputar",
 			"title": "Judul",
-			"artists": "Artist(s)",
+			"artists": "Artis",
 			"album": "Album",
-			"progress": "progress",
+			"progress": "Progres",
 			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "Suka",
 			"liked": "Disukai",
@@ -39,9 +39,9 @@
 			}
 		},
 		"settings": {
-			"shard": "Server's Shard",
-			"cluster": "Server's Cluster",
-			"id": "Server's ID",
+			"shard": "Shard Server",
+			"cluster": "Cluster Server",
+			"id": "ID Server",
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Diaktifkan",
 			"disabled": "{{emoji}} Dinonaktifkan",
@@ -65,7 +65,7 @@
 			"Menampilkan lagu yang sedang diputar."
 		],
 		"settings": [
-			"Menampilkan settingan server."
+			"Menampilkan pengaturan server."
 		]
 	}
 }
