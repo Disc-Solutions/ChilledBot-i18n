@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync } from 'fs';
+import { readdirSync } from 'fs';
 import { join } from 'path';
 
 // ANSI color codes for better output
@@ -185,4 +185,10 @@ async function validateTranslations() {
 }
 
 // Run validation
-await validateTranslations();
+try {
+  await validateTranslations();
+} catch (error) {
+  console.error(`${colors.red}Unexpected error during validation:${colors.reset}`);
+  console.error(error);
+  process.exit(1);
+}
