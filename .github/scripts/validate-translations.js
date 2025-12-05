@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import { readdirSync, readFileSync } from 'fs';
+import { join } from 'path';
 
 // ANSI color codes for better output
 const colors = {
@@ -33,14 +33,15 @@ function getAllKeys(obj, prefix = '') {
 }
 
 /**
- * Validate JSON syntax by attempting to parse
+ * Validate JSON syntax by attempting to parse using Bun's native file API
  * @param {string} filePath - Path to the JSON file
- * @returns {object|null} - Parsed JSON object or null if invalid
+ * @returns {Promise<object|null>} - Parsed JSON object or null if invalid
  */
-function validateJSONSyntax(filePath) {
+async function validateJSONSyntax(filePath) {
   try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(content);
+    // Use Bun.file() API
+    const bunFile = Bun.file(filePath);
+    return await bunFile.json();
   } catch (error) {
     console.error(`${colors.red}✗ ${filePath}: Invalid JSON syntax${colors.reset}`);
     console.error(`  ${error.message}`);
@@ -79,15 +80,15 @@ function compareKeys(referenceKeys, translationKeys, fileName) {
 /**
  * Main validation function
  */
-function validateTranslations() {
+async function validateTranslations() {
   const repoRoot = process.cwd();
-  const referenceFile = path.join(repoRoot, 'en.json');
+  const referenceFile = join(repoRoot, 'en.json');
   
   console.log(`${colors.blue}=== Translation Validation ===${colors.reset}\n`);
   
   // Validate reference file (en.json)
   console.log(`Validating reference file: en.json`);
-  const referenceData = validateJSONSyntax(referenceFile);
+  const referenceData = await validateJSONSyntax(referenceFile);
   
   if (!referenceData) {
     console.error(`${colors.red}ERROR: Reference file (en.json) is invalid!${colors.reset}`);
@@ -100,50 +101,51 @@ function validateTranslations() {
   const referenceKeys = getAllKeys(referenceData);
   console.log(`Reference file contains ${referenceKeys.size} keys\n`);
   
-  // Get all JSON files in the repository
-  const files = fs.readdirSync(repoRoot)
-    .filter(file => file.endsWith('.json') && file !== 'en.json');
+  // Get all JSON files in the repository using Bun's native API
+  const entries = readdirSync(repoRoot);
+  const files = entries
+    .filter(entry => entry.endsWith('.json') && entry !== 'en.json');
   
   let hasErrors = false;
   const results = [];
   
   // Validate each translation file
-  for (const file of files) {
-    const filePath = path.join(repoRoot, file);
-    console.log(`Validating: ${file}`);
+  for (const fileName of files) {
+    const filePath = join(repoRoot, fileName);
+    console.log(`Validating: ${fileName}`);
     
     // Validate JSON syntax
-    const translationData = validateJSONSyntax(filePath);
+    const translationData = await validateJSONSyntax(filePath);
     
     if (!translationData) {
       hasErrors = true;
-      results.push({ file, valid: false, missing: [], extra: [] });
+      results.push({ file: fileName, valid: false, missing: [], extra: [] });
       continue;
     }
     
-    console.log(`${colors.green}✓ ${file}: Valid JSON syntax${colors.reset}`);
+    console.log(`${colors.green}✓ ${fileName}: Valid JSON syntax${colors.reset}`);
     
     // Compare keys
     const translationKeys = getAllKeys(translationData);
-    const { missing, extra } = compareKeys(referenceKeys, translationKeys, file);
+    const { missing, extra } = compareKeys(referenceKeys, translationKeys, fileName);
     
     if (missing.length > 0) {
       hasErrors = true;
-      console.log(`${colors.red}✗ ${file}: Missing ${missing.length} key(s)${colors.reset}`);
+      console.log(`${colors.red}✗ ${fileName}: Missing ${missing.length} key(s)${colors.reset}`);
       missing.forEach(key => console.log(`  - ${key}`));
     }
     
     if (extra.length > 0) {
-      console.log(`${colors.yellow}⚠ ${file}: Has ${extra.length} extra key(s) not in en.json${colors.reset}`);
+      console.log(`${colors.yellow}⚠ ${fileName}: Has ${extra.length} extra key(s) not in en.json${colors.reset}`);
       extra.forEach(key => console.log(`  - ${key}`));
     }
     
     if (missing.length === 0 && extra.length === 0) {
-      console.log(`${colors.green}✓ ${file}: All keys match en.json${colors.reset}`);
+      console.log(`${colors.green}✓ ${fileName}: All keys match en.json${colors.reset}`);
     }
     
     console.log('');
-    results.push({ file, valid: true, missing, extra });
+    results.push({ file: fileName, valid: true, missing, extra });
   }
   
   // Summary
@@ -183,4 +185,4 @@ function validateTranslations() {
 }
 
 // Run validation
-validateTranslations();
+await validateTranslations();
