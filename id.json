@@ -1,60 +1,71 @@
 {
 	"emoji": "🇮🇩",
-	"language": "Indonesia",
-	"vote": "Beri suara untuk bot untuk mendukung kami",
+	"language": "Indonesian",
+	"vote": "Vote bot ini untuk terus dukung kami",
 	"commands": {
 		"join": {
-			"error1": "Anda harus berada di saluran suara atau menentukannya!",
-			"error2": "Saya tidak bisa bergabung dengan saluran itu!",
-			"error3": "Saya tidak bisa berbicara di saluran itu!",
+			"error1": "Kamu harus ada di voice channel atau tentukan salah satunya!",
+			"error2": "Aku tidak bisa bergabung kedalam channel!",
+			"error3": "Aku tidak bisa berbicara didalam channel!",
 			"connected": "Sekarang terhubung ke {{channel}}"
 		},
 		"leave": {
-			"error": "Saya tidak terhubung ke saluran mana pun!",
-			"disconnected": "Saya telah terputus dari {{channel}}"
+			"error": "Aku tidak terhubung pada channel manapun!",
+			"disconnected": "Aku terputus dari {{channel}}"
 		},
 		"nowplaying": {
 			"np": "Sedang Diputar",
 			"title": "Judul",
-			"artists": "Artis",
+			"artists": "Artist(s)",
 			"album": "Album",
-			"progress": "Progres",
-			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
+			"progress": "progress",
+			"footer": "Shard #{{shard}}  •  Cluster #{{cluster}}",
 			"like": "Suka",
 			"liked": "Disukai",
 			"liked_message": "> {{user}} Menyukai lagu **{{song}}**",
-			"likes": "Orang yang menyukainya"
+			"likes": "Disukai Oleh"
 		},
 		"favorites": {
-			"no_favorites": "Anda tidak memiliki lagu di favorit Anda!",
-			"title": "Lagu favorit Anda",
-			"likes": "{{likes}} suka",
-			"unlike": "Hapus yang disukai",
+			"no_favorites": "Kamu belum punya lagu di daftar favoritmu!",
+			"title": "Lagu Favoritmu",
+			"likes": "{{likes}} Menyukai",
+			"unlike": "Hapus Suka",
 			"modal": {
-				"title": "Hapus lagu dari favorit Anda",
-				"label": "Posisi lagu di daftar favorit",
-				"placeholder": "Silakan masukkan posisi lagu di daftar favorit Anda (Di sebelah kanan dalam daftar favorit)",
-				"no_song": "Lagu yang Anda tentukan tidak ada di daftar favorit Anda!",
-				"unliked": "Lagu {{song}} telah dihapus dari daftar favorit Anda"
+				"title": "Hapus lagu dari daftar favoritmu",
+				"label": "Posisi lagu dalam daftar favoritmu",
+				"placeholder": "Tolong masukkan posisi lagu di daftar favoritmu (di bagian kanan daftar favorit)",
+				"no_song": "Lagu yang kamu masukkan tidak ditemukan di daftar favoritmu!",
+				"unliked": "Lagu {{song}} sudah dihapus dari favoritmu."
 			}
 		},
 		"settings": {
-			"shard": "Shard Server",
-			"cluster": "Cluster Server",
-			"id": "ID Server",
+			"shard": "Server's Shard",
+			"cluster": "Server's Cluster",
+			"id": "Server's ID",
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Diaktifkan",
 			"disabled": "{{emoji}} Dinonaktifkan",
-			"language": "Berikut adalah daftar bahasa yang tersedia di bot. Bot ini didasarkan pada bahasa yang ditentukan oleh server dan bahasa klien Discord Anda.",
+			"language": "Ini adalah daftar bahasa yang tersedia pada bot. Bahasa bot akan ditentukan berdasarkan bahasa yang diatur oleh server dan bahasa klien Discord Kamu.",
 			"languages": "Bahasa yang tersedia di bot",
 			"translate_the_bot": "Bantu kami menerjemahkan bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
 		}
 	},
 	"slash": {
-		"favorites": ["Menampilkan lagu yang Anda sukai."],
-		"join": ["Menghubungkan bot ke saluran suara.", "Saluran suara untuk dihubungkan."],
-		"leave": ["Memutuskan bot dari saluran suara."],
-		"nowplaying": ["Menampilkan lagu yang sedang diputar."],
-		"settings": ["Menampilkan pengaturan server."]
+		"favorites": [
+			"Menampilkan lagu-lagu yang kamu suka."
+		],
+		"join": [
+			"Menghubungkan bot ke voice channel",
+			"Voice channel yang akan dihubungkan"
+		],
+		"leave": [
+			"Mengeluarkan bot dari voice channel."
+		],
+		"nowplaying": [
+			"Menampilkan lagu yang sedang diputar."
+		],
+		"settings": [
+			"Menampilkan settingan server."
+		]
 	}
 }
