@@ -45,8 +45,6 @@
 			"24/7": "24/7",
 			"enabled": "{{emoji}} Habilitado",
 			"disabled": "{{emoji}} Deshabilitado",
-			"change_radio": "Cambiar Radio",
-			"nowplaying_channel": "Canal de Reproduciendo Ahora",
 			"language": "Aquí está la lista de idiomas disponibles en el bot. El bot se basa en el idioma definido por el servidor y en el idioma de tu cliente de Discord.",
 			"languages": "Idiomas disponibles en el bot",
 			"translate_the_bot": "Ayúdanos a traducir el bot: <https://github.com/Disc-Solutions/ChilledBot-i18n>"
