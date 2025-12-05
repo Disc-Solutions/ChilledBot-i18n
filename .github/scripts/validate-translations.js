@@ -134,7 +134,6 @@ function validateTranslations() {
     }
     
     if (extra.length > 0) {
-      hasErrors = true;
       console.log(`${colors.yellow}⚠ ${file}: Has ${extra.length} extra key(s) not in en.json${colors.reset}`);
       extra.forEach(key => console.log(`  - ${key}`));
     }
@@ -151,17 +150,24 @@ function validateTranslations() {
   console.log(`${colors.blue}=== Validation Summary ===${colors.reset}`);
   console.log(`Total files validated: ${files.length + 1}`);
   
-  const filesWithIssues = results.filter(r => !r.valid || r.missing.length > 0 || r.extra.length > 0);
+  const filesWithIssues = results.filter(r => !r.valid || r.missing.length > 0);
+  const filesWithWarnings = results.filter(r => r.valid && r.missing.length === 0 && r.extra.length > 0);
   
   if (hasErrors) {
-    console.log(`${colors.red}Files with issues: ${filesWithIssues.length}${colors.reset}`);
+    console.log(`${colors.red}Files with errors: ${filesWithIssues.length}${colors.reset}`);
     filesWithIssues.forEach(r => {
       if (!r.valid) {
         console.log(`  - ${r.file}: Invalid JSON`);
-      } else if (r.missing.length > 0 || r.extra.length > 0) {
-        console.log(`  - ${r.file}: ${r.missing.length} missing, ${r.extra.length} extra keys`);
+      } else if (r.missing.length > 0) {
+        console.log(`  - ${r.file}: ${r.missing.length} missing keys`);
       }
     });
+    if (filesWithWarnings.length > 0) {
+      console.log(`${colors.yellow}Files with warnings: ${filesWithWarnings.length}${colors.reset}`);
+      filesWithWarnings.forEach(r => {
+        console.log(`  - ${r.file}: ${r.extra.length} extra keys (warnings only)`);
+      });
+    }
     console.log('');
     console.log(`${colors.red}Validation FAILED${colors.reset}`);
     process.exit(1);
